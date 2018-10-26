@@ -1,0 +1,9 @@
+#!/bin/bash
+
+go build && ./golog
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/YashishDua/GoLog.git
+git push -u origin master
