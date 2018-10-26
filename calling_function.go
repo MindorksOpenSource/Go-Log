@@ -1,7 +1,7 @@
-package configure
+package main
 
 var IsCallingFunctionEnabled bool
 
-func CallingFunction() {
+func ConfigureCallingFunction() {
 	IsCallingFunctionEnabled = true
 }

@@ -1,7 +1,7 @@
-package configure
+package main
 
 var IsTimeEnabled bool
 
-func Timer() {
+func ConfigureTimer() {
 	IsTimeEnabled = true
 }

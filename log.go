@@ -1,8 +1,7 @@
-package gologger
+package main
 
 import (
 	"fmt"
-	"golog/configure"
 	"log"
 	"runtime"
 )
@@ -19,11 +18,11 @@ func E(message string) {
 
 func printMessage(message string) {
 	var resultMessage string
-	if configure.IsCallingFunctionEnabled == true {
+	if IsCallingFunctionEnabled == true {
 		resultMessage += "[" + getCallingFunctionName() + "]"
 	}
 	resultMessage += " " + message
-	if configure.IsTimeEnabled {
+	if IsTimeEnabled {
 		log.Println(resultMessage)
 		return
 	}
