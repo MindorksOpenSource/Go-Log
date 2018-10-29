@@ -1,4 +1,4 @@
-package go_log
+package golog
 
 import "testing"
 
