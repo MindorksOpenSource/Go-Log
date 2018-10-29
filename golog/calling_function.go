@@ -1,4 +1,4 @@
-package log
+package golog
 
 // IsCallingFunctionEnabled : Exported to be get to know the configuration
 var IsCallingFunctionEnabled bool
