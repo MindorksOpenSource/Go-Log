@@ -30,12 +30,12 @@ package main
 import "go-log"
 
 func main() {
-	golog.D("This a basic debug log without time")
+	golog.D("A basic debug log.")
 }
 ```
 
 This golog prints the message without any extra information like:
 
 ```bash
-$ This a basic primitive debug log
+$ A basic primitive debug log.
 ```
