@@ -1,7 +1,7 @@
 package main
 
-import "golog/golog"
+import "go-log/golog"
 
-func main()  {
+func main() {
 	golog.D("Hi, We are live!")
 }
