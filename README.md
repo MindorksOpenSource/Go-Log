@@ -20,3 +20,22 @@ import (
 	"github.com/yashishdua/go-log"
 )
 ```
+## Examples
+
+### 1. GoLog Debug 
+
+```go
+package main
+
+import "go-log"
+
+func main() {
+	golog.D("This a basic debug log without time")
+}
+```
+
+This golog prints the message without any extra information like:
+
+```go
+$ This a basic primitive debug log
+```
