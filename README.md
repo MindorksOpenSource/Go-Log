@@ -25,10 +25,6 @@ import (
 ### 1. GoLog Debug 
 
 ```go
-package main
-
-import "go-log"
-
 func main() {
 	golog.D("A basic primitive debug log.")
 }
@@ -40,13 +36,9 @@ This golog prints the message without any extra information like:
 $ A basic primitive debug log.
 ```
 
-### 1. GoLog Debug 
+### 1. GoLog Error 
 
 ```go
-package main
-
-import "go-log"
-
 func main() {
 	golog.E("This a basic primitive error log.")
 }
