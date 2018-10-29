@@ -1,7 +1,11 @@
 # Go-Log
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/yashishdua/Go-Log)](https://goreportcard.com/report/github.com/yashishdua/Go-Log)
-[![CircleCI](https://circleci.com/gh/yashishdua/go-log.svg?style=svg)](https://circleci.com/gh/yashishdua/go-log)
+
+Go-Log is a utility log package built to customize the Go's normal log package. Prominent features are
+* Tag the logs into debug and error variant.
+* Add/Remove Timestamp to logs
+* Get the calling function details in logs
 
 ### Install
 
