@@ -36,7 +36,7 @@ This golog prints the message without any extra information like:
 $ A basic primitive debug log.
 ```
 
-### 1. GoLog Error 
+### 2. GoLog Error 
 
 ```go
 func main() {
@@ -48,4 +48,12 @@ This golog prints the message while tagging it as an ERROR like:
 
 ```bash
 $ [ERROR] This a basic primitive error log.
+```
+### Configuration (Additional Information)
+
+```go
+// Adds time to the log
+golog.ConfigureTimer()
+// Adds the calling function path to log
+golog.ConfigureCallingFunction()
 ```
