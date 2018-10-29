@@ -6,12 +6,12 @@ import (
 	"runtime"
 )
 
-// Default Logger
+// D : Default Logger
 func D(message string) {
 	printMessage(message)
 }
 
-// Error Logger
+// E : Error Logger
 func E(message string) {
 	printMessage("[ERROR] " + message)
 }
