@@ -57,3 +57,35 @@ golog.ConfigureTimer()
 // Adds the calling function path to log
 golog.ConfigureCallingFunction()
 ```
+
+### 3. GoLog Debug/Error with Time
+
+```go
+func main() {
+	golog.ConfigureTimer()
+	golog.D("A debug log with time")
+}
+```
+
+This golog prints the message with its timestamp like:
+
+```bash
+$ 2018/10/29 15:52:24  A debug log with time
+```
+
+### 4. GoLog Debug/Error with CallingFunction
+
+```go
+func main() {
+	golog.ConfigureCallingFunction()
+	golog.D("A debug log with calling function")
+}
+```
+
+This golog prints the message with its timestamp like:
+
+```bash
+$ [main.main] A debug log with calling function
+```
+
+You can use both the configurations together also. Go gophers!
