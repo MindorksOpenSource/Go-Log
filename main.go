@@ -1,7 +1,7 @@
 package main
 
-import "go-log/golog"
+import "go-log/log"
 
 func main() {
-	golog.D("Hi, We are live!")
+	log.D("Hi, We are live!")
 }

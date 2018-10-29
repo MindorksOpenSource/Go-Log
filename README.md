@@ -1,4 +1,4 @@
-# GoLog
+# Go-Log
 
 
 [![Documentation](https://godoc.org/github.com/yashishdua/GoLog?status.svg)](http://godoc.org/github.com/yashishdua/GoLog)
