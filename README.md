@@ -91,7 +91,7 @@ $ [main.main] A debug log with calling function
 You can use both the configurations together also. Go gophers!
 
 
-## Show some :heart: and star the repo to support the project
+### Show some :heart:
 
 [![GitHub stars](https://img.shields.io/github/stars/yashishdua/go-log.svg?style=social&label=Star)](https://github.com/yashishdua/go-log) [![GitHub forks](https://img.shields.io/github/forks/yashishdua/go-log.svg?style=social&label=Fork)](https://github.com/yashishdua/go-log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/yashishdua/go-log.svg?style=social&label=Watch)](https://github.com/yashishdua/go-log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/yashishdua/go-log)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/duayashish.svg?style=social)](https://twitter.com/duayashish)
