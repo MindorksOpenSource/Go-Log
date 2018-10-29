@@ -36,6 +36,6 @@ func main() {
 
 This golog prints the message without any extra information like:
 
-```go
+```bash
 $ This a basic primitive debug log
 ```
