@@ -1,6 +1,6 @@
 package main
 
-// IsTimeEnabled : Exported to be get to know the conifguration
+// IsTimeEnabled : Exported to be get to know the configuration
 var IsTimeEnabled bool
 
 // ConfigureTimer : Exported to be able to call it

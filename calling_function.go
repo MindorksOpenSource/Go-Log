@@ -1,6 +1,6 @@
 package main
 
-// IsCallingFunctionEnabled : Exported to be get to know the conifguration
+// IsCallingFunctionEnabled : Exported to be get to know the configuration
 var IsCallingFunctionEnabled bool
 
 // ConfigureCallingFunction : Exported to be able to call it
