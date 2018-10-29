@@ -29,7 +29,6 @@ func printMessage(message string) {
 	fmt.Println(resultMessage)
 }
 
-
 func getCallingFunctionName() string {
 	pc, _, _, ok := runtime.Caller(3)
 	details := runtime.FuncForPC(pc)
