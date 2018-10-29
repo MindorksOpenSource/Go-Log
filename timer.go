@@ -1,4 +1,4 @@
-package golog
+package go_log
 
 // IsTimeEnabled : Exported to be get to know the configuration
 var IsTimeEnabled bool
