@@ -97,6 +97,6 @@ You can use both the configurations together also. Go gophers!
 
 ### Show some :heart:
 
-[![GitHub stars](https://img.shields.io/github/stars/MindorksOpenSource/Go-Log.svg?style=social&label=Star)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub forks](https://img.shields.io/github/forks/MindorksOpenSource/Go-Log.svg?style=social&label=Fork)](https://github.com/MindorksOpenSource/Go-Log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/MindorksOpenSource/Go-Log.svg?style=social&label=Watch)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/yashishdua/go-log)  
+[![GitHub stars](https://img.shields.io/github/stars/MindorksOpenSource/Go-Log.svg?style=social&label=Star)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub forks](https://img.shields.io/github/forks/MindorksOpenSource/Go-Log.svg?style=social&label=Fork)](https://github.com/MindorksOpenSource/Go-Log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/MindorksOpenSource/Go-Log.svg?style=social&label=Watch)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/MindorksOpenSource/Go-Log)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/duayashish.svg?style=social)](https://twitter.com/duayashish)
 
