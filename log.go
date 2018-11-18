@@ -4,24 +4,41 @@ import (
 	"fmt"
 	"log"
 	"runtime"
+	"sync"
 )
+
+var mutex = &sync.Mutex{}
+var wg sync.WaitGroup
 
 // D : Default Logger
 func D(message string) {
-	printMessage(message)
+	generateMessage(message)
 }
 
 // E : Error Logger
 func E(message string) {
-	printMessage("[ERROR] " + message)
+	generateMessage("[ERROR] " + message)
 }
 
-func printMessage(message string) {
+func generateMessage(message string) {
 	var resultMessage string
 	if IsCallingFunctionEnabled == true {
 		resultMessage += "[" + getCallingFunctionName() + "]"
 	}
 	resultMessage += " " + message
+
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		printMessage(resultMessage)
+	} ()
+
+	wg.Wait()
+}
+
+func printMessage(resultMessage string) {
+	mutex.Lock()
+	defer mutex.Unlock()
 	if IsTimeEnabled {
 		log.Println(resultMessage)
 		return
