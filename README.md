@@ -6,6 +6,7 @@ Go-Log is a utility log package built to customize the Go's normal log package. 
 * Tag the logs into debug and error variant.
 * Add/Remove Timestamp to logs
 * Get the calling function details in logs
+* Synchronized with mutex locks to handle multiple logging
 
 ### Install
 
@@ -22,7 +23,7 @@ import (
 ```
 ## Examples
 
-### 1. GoLog Debug 
+### 1. GoLog Debug
 
 ```go
 func main() {
@@ -36,7 +37,7 @@ This golog prints the message without any extra information like:
 $ A basic primitive debug log.
 ```
 
-### 2. GoLog Error 
+### 2. GoLog Error
 
 ```go
 func main() {
@@ -99,4 +100,3 @@ You can use both the configurations together also. Go gophers!
 
 [![GitHub stars](https://img.shields.io/github/stars/MindorksOpenSource/Go-Log.svg?style=social&label=Star)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub forks](https://img.shields.io/github/forks/MindorksOpenSource/Go-Log.svg?style=social&label=Fork)](https://github.com/MindorksOpenSource/Go-Log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/MindorksOpenSource/Go-Log.svg?style=social&label=Watch)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/MindorksOpenSource/Go-Log)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/duayashish.svg?style=social)](https://twitter.com/duayashish)
-
