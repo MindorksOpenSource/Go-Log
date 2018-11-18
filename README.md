@@ -1,6 +1,6 @@
 # Go-Log
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/yashishdua/Go-Log)](https://goreportcard.com/report/github.com/yashishdua/Go-Log)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MindorksOpenSource/Go-Log)](https://goreportcard.com/report/github.com/MindorksOpenSource/Go-Log)
 
 Go-Log is a utility log package built to customize the Go's normal log package. Prominent features are
 * Tag the logs into debug and error variant.
@@ -10,14 +10,14 @@ Go-Log is a utility log package built to customize the Go's normal log package. 
 ### Install
 
 ```bash
-go get github.com/yashishdua/go-log
+go get github.com/MindorksOpenSource/Go-Log
 ```
 
 ### Import
 
 ```go
 import (
-	"github.com/yashishdua/go-log"
+	"github.com/MindorksOpenSource/Go-Log"
 )
 ```
 ## Examples
@@ -91,8 +91,12 @@ $ [main.main] A debug log with calling function
 You can use both the configurations together also. Go gophers!
 
 
+### Contributor
+[Yashish Dua](https://github.com/yashishdua)
+
+
 ### Show some :heart:
 
-[![GitHub stars](https://img.shields.io/github/stars/yashishdua/go-log.svg?style=social&label=Star)](https://github.com/yashishdua/go-log) [![GitHub forks](https://img.shields.io/github/forks/yashishdua/go-log.svg?style=social&label=Fork)](https://github.com/yashishdua/go-log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/yashishdua/go-log.svg?style=social&label=Watch)](https://github.com/yashishdua/go-log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/yashishdua/go-log)  
+[![GitHub stars](https://img.shields.io/github/stars/MindorksOpenSource/Go-Log.svg?style=social&label=Star)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub forks](https://img.shields.io/github/forks/MindorksOpenSource/Go-Log.svg?style=social&label=Fork)](https://github.com/MindorksOpenSource/Go-Log/fork) [![GitHub watchers](https://img.shields.io/github/watchers/MindorksOpenSource/Go-Log.svg?style=social&label=Watch)](https://github.com/MindorksOpenSource/Go-Log) [![GitHub followers](https://img.shields.io/github/followers/yashishdua.svg?style=social&label=Follow)](https://github.com/MindorksOpenSource/Go-Log)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/duayashish.svg?style=social)](https://twitter.com/duayashish)
 
