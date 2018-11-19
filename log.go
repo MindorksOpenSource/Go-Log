@@ -11,39 +11,41 @@ var mutex = &sync.Mutex{}
 var wg sync.WaitGroup
 
 // D : Default Logger
-func D(message string) {
-	generateMessage(message)
+func D(message ...interface{}) {
+	generateMessage(message...)
 }
 
 // E : Error Logger
-func E(message string) {
-	generateMessage("[ERROR] " + message)
+func E(message ...interface{}) {
+	message = append([]interface{}{"[ERROR]"}, message...)
+	generateMessage(message...)
 }
 
-func generateMessage(message string) {
+func generateMessage(message ...interface{}) {
 	var resultMessage string
 	if IsCallingFunctionEnabled == true {
 		resultMessage += "[" + getCallingFunctionName() + "]"
 	}
-	resultMessage += " " + message
+	// resultMessage += " " + message
 
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
-		printMessage(resultMessage)
-	} ()
+		message = append([]interface{}{resultMessage}, message...)
+		printMessage(message...)
+	}()
 
 	wg.Wait()
 }
 
-func printMessage(resultMessage string) {
+func printMessage(resultMessage ...interface{}) {
 	mutex.Lock()
 	defer mutex.Unlock()
 	if IsTimeEnabled {
-		log.Println(resultMessage)
+		log.Println(resultMessage...)
 		return
 	}
-	fmt.Println(resultMessage)
+	fmt.Println(resultMessage...)
 }
 
 func getCallingFunctionName() string {
